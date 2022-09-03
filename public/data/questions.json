@@ -1,0 +1,517 @@
+[
+  {
+    "question": "What is the largest animal in the world?",
+    "difficulty": "easy",
+    "answerOptions": [
+      "Giraffe",
+      "The Blue Whale",
+      "African Elephant",
+      "Whale Shark"
+    ],
+    "answerCorrect": "The Blue Whale"
+  },
+  {
+    "question": "Where is the Tajmahal?",
+    "difficulty": "easy",
+    "answerOptions": ["Delhi", "Mumbai", "Agra", "Bengaluru"],
+    "answerCorrect": "Agra"
+  },
+  {
+    "question": "What is the capital of France?",
+    "difficulty": "easy",
+    "answerOptions": ["Paris", "Prague", "Rome", "Madrid"],
+    "answerCorrect": "Paris"
+  },
+  {
+    "question": "Who is Mickey Mouse’s wife?",
+    "difficulty": "easy",
+    "answerOptions": [
+      "Daisy Duck",
+      "Roxanne.",
+      "Minnie Mouse",
+      "Clarabelle Cow"
+    ],
+    "answerCorrect": "Minnie Mouse"
+  },
+  {
+    "question": "Who discovered America?",
+    "difficulty": "easy",
+    "answerOptions": [
+      "Marco Polo",
+      "Walter Raleigh",
+      "Amerigo Vespucci",
+      "Christopher Columbus"
+    ],
+    "answerCorrect": "Christopher Columbus"
+  },
+  {
+    "question": "Jack and Jill were going up what?",
+    "difficulty": "easy",
+    "answerOptions": ["The Mountain", "The Hill", "The Wall", "The Rock"],
+    "answerCorrect": "The Hill"
+  },
+  {
+    "question": "How many continents are there in the world?",
+    "difficulty": "easy",
+    "answerOptions": ["6", "8", "7", "5"],
+    "answerCorrect": "7"
+  },
+  {
+    "question": "How many tentacles does an Octopus have?",
+    "difficulty": "easy",
+    "answerOptions": ["7", "8", "6", "9"],
+    "answerCorrect": "8"
+  },
+  {
+    "question": "Name the fastest animal on earth.",
+    "difficulty": "easy",
+    "answerOptions": ["Cheetah", "Ostrich", "The Blue Whale", "The Bald Eagle"],
+    "answerCorrect": "Cheetah"
+  },
+  {
+    "question": "Who is Nobita’s best friend?",
+    "difficulty": "easy",
+    "answerOptions": ["Gian", "Doraemon", "Suneo", "Dekisugi"],
+    "answerCorrect": "Doraemon"
+  },
+  {
+    "question": "How many sides does a pentagon have?",
+    "difficulty": "easy",
+    "answerOptions": ["4", "7", "6", "5"],
+    "answerCorrect": "5"
+  },
+  {
+    "question": "What is the name of Harry Potter’s father?",
+    "difficulty": "easy",
+    "answerOptions": [
+      "Hardwin Potter",
+      "Henry Potter",
+      "Abraham Potter",
+      "James Potter"
+    ],
+    "answerCorrect": "James Potter"
+  },
+  {
+    "question": "Where do penguins live?",
+    "difficulty": "easy",
+    "answerOptions": ["Antarctica", "Arctic", "England", "Canada"],
+    "answerCorrect": "Antarctica"
+  },
+  {
+    "question": "How many paise are in a rupee?",
+    "difficulty": "easy",
+    "answerOptions": ["1000", "25", "100", "50"],
+    "answerCorrect": "100"
+  },
+  {
+    "question": "Which Disney princess lost her shoe?",
+    "difficulty": "easy",
+    "answerOptions": ["Cinderella", "Snow White", "Elsa", "Rupunzel"],
+    "answerCorrect": "Cinderella"
+  },
+  {
+    "question": "Surat is in which state?",
+    "difficulty": "easy",
+    "answerOptions": ["Maharashtra", "Gujrat", "Punjab", "Goa"],
+    "answerCorrect": "Gujrat"
+  },
+  {
+    "question": "Which bridge is in Kolkata?",
+    "difficulty": "easy",
+    "answerOptions": [
+      "Vidyasagar Setu",
+      "Pamban Bridge",
+      "Howrah Bridge",
+      "Mahatma Gandhi Setu"
+    ],
+    "answerCorrect": "Howrah Bridge"
+  },
+  {
+    "question": "How many states are in the United States of America?",
+    "difficulty": "easy",
+    "answerOptions": ["50", "40", "30", "60"],
+    "answerCorrect": "50"
+  },
+  {
+    "question": "What does a thermometer measure?",
+    "difficulty": "easy",
+    "answerOptions": [
+      "Air Pressure",
+      "Humidity",
+      "Intensity of Light",
+      "Temperature"
+    ],
+    "answerCorrect": "Temperature"
+  },
+  {
+    "question": "How many Dwarves lived with Snow White?",
+    "difficulty": "easy",
+    "answerOptions": ["5", "9", "3", "7"],
+    "answerCorrect": "7"
+  },
+  {
+    "question": "Where is the Leaning Tower of Piza?",
+    "difficulty": "medium",
+    "answerOptions": ["Paris", "Italy", "Rome", "Prague"],
+    "answerCorrect": "Italy"
+  },
+  {
+    "question": "The Little Mermaid had a pet fish named what?",
+    "difficulty": "medium",
+    "answerOptions": ["Dory", "Marlin", "Flounder", "Mrs. Puff"],
+    "answerCorrect": "Flounder"
+  },
+  {
+    "question": "Cleopatra was the queen of which country?",
+    "difficulty": "medium",
+    "answerOptions": ["Egypt", "Italy", "Spain", "Serbia"],
+    "answerCorrect": "Egypt"
+  },
+  {
+    "question": "Who started his speech with “At the stroke of midnight hour...”?",
+    "difficulty": "medium",
+    "answerOptions": [
+      "Lal Bahadur Shastri",
+      "Jawahar Lal Nehru",
+      "Mahatma Gandhi",
+      "Bhagat Singh"
+    ],
+    "answerCorrect": "Jawahar Lal Nehru"
+  },
+  {
+    "question": "What did Julius Caesar rule?",
+    "difficulty": "medium",
+    "answerOptions": ["Madrid", "Cairo", "Rome", "Jerusalem"],
+    "answerCorrect": "Rome"
+  },
+  {
+    "question": "What do you call a baby cow?",
+    "difficulty": "medium",
+    "answerOptions": ["Cub", "Calf", "Chick", "Kid"],
+    "answerCorrect": "Calf"
+  },
+  {
+    "question": "Which animal was considered sacred in Ancient Egypt?",
+    "difficulty": "medium",
+    "answerOptions": ["Dog", "Snake", "Lion", "Cats"],
+    "answerCorrect": "Cats"
+  },
+  {
+    "question": "Who killed Albus Dumbledore?",
+    "difficulty": "medium",
+    "answerOptions": [
+      "Draco Malfoy",
+      "Lucius Malfoy",
+      "Severus Snape",
+      "Lord Voldemort"
+    ],
+    "answerCorrect": "Severus Snape"
+  },
+  {
+    "question": "What is the capital of South Korea?",
+    "difficulty": "medium",
+    "answerOptions": ["Seoul", "Incheon", "Busan", "Ansan"],
+    "answerCorrect": "Seoul"
+  },
+  {
+    "question": "What do you call a shape with 7 sides?",
+    "difficulty": "medium",
+    "answerOptions": ["Hexagon", "Octagon", "Heptagon", "Pentagon"],
+    "answerCorrect": "Heptagon"
+  },
+  {
+    "question": "Who attacked Pearl Harbor?",
+    "difficulty": "medium",
+    "answerOptions": ["Germans", "Turks", "French", "Japanese"],
+    "answerCorrect": "Japanese"
+  },
+  {
+    "question": "Who was the leader of the Greek Gods?",
+    "difficulty": "medium",
+    "answerOptions": ["Zeus", "Ares", "Poseidon", "Hera"],
+    "answerCorrect": "Zeus"
+  },
+  {
+    "question": "Who wrote Harry Potter?",
+    "difficulty": "medium",
+    "answerOptions": [
+      "Jane Austen",
+      "Geoffrey Chaucer",
+      "J.K. Rowling",
+      "William Blake"
+    ],
+    "answerCorrect": "J.K. Rowling"
+  },
+  {
+    "question": "What is the national animal of the United States of America?",
+    "difficulty": "medium",
+    "answerOptions": [
+      "American Alligator",
+      "Bison",
+      "California condor",
+      "The Bald Eagle"
+    ],
+    "answerCorrect": "The Bald Eagle"
+  },
+  {
+    "question": "What sport did Tiger Woods play?",
+    "difficulty": "medium",
+    "answerOptions": ["Golf", "Football", "Badminton", "Tennis"],
+    "answerCorrect": "Golf"
+  },
+  {
+    "question": "Which American President freed the slaves? ",
+    "difficulty": "medium",
+    "answerOptions": [
+      "John Tyler",
+      "Woodrow Wilson",
+      "Abraham Lincoln ",
+      "Theodore Roosevelt"
+    ],
+    "answerCorrect": "Abraham Lincoln "
+  },
+  {
+    "question": "What is the national sport of the United Kingdom?",
+    "difficulty": "medium",
+    "answerOptions": ["Cricket", "Basketball", "Boxing", "Gymnastics"],
+    "answerCorrect": "Cricket"
+  },
+  {
+    "question": "Who painted the Last Supper?",
+    "difficulty": "medium",
+    "answerOptions": [
+      "Pablo Picasso",
+      "Leonardo Da Vinci",
+      "Johannes Vermeer",
+      "Jan Van Eyck"
+    ],
+    "answerCorrect": "Leonardo Da Vinci"
+  },
+  {
+    "question": "In which year British won Battle of Plassey?",
+    "difficulty": "medium",
+    "answerOptions": ["1779", "1857", "1659", "1757"],
+    "answerCorrect": "1757"
+  },
+  {
+    "question": "Who is the second Prime Minister of India?",
+    "difficulty": "medium",
+    "answerOptions": [
+      "Lal Bahadur Shastri",
+      "Jawahar Lal Nehru",
+      "Indira Gandhi",
+      "Gulzarilal Nanda"
+    ],
+    "answerCorrect": "Lal Bahadur Shastri"
+  },
+  {
+    "question": "Which animal never forgets? ",
+    "difficulty": "hard",
+    "answerOptions": ["Owl", "Elephants", "Dolphins", "Deer"],
+    "answerCorrect": "Elephants"
+  },
+  {
+    "question": "What is the name for “a fear of spiders”?",
+    "difficulty": "hard",
+    "answerOptions": [
+      "Androphobia",
+      "Arachnophobia",
+      "Pogonophobia",
+      "Barophobia"
+    ],
+    "answerCorrect": "Arachnophobia"
+  },
+  {
+    "question": "Who founded the Ford Motor Company?",
+    "difficulty": "hard",
+    "answerOptions": ["Isaac Ford", "Edsel Ford", "Anne Ford", "Henry Ford"],
+    "answerCorrect": "Henry Ford"
+  },
+  {
+    "question": "What do you call a group of lions?",
+    "difficulty": "hard",
+    "answerOptions": ["Swarm", "Colony", "Pride", "Caravan"],
+    "answerCorrect": "Pride"
+  },
+  {
+    "question": "Which dinosaur could fly?",
+    "difficulty": "hard",
+    "answerOptions": [
+      "Tyrannosaurus Rex",
+      "Pterodactyl",
+      "Allosaurus",
+      "Triceratops"
+    ],
+    "answerCorrect": "Pterodactyl"
+  },
+  {
+    "question": "What are the three stars in a straight line?",
+    "difficulty": "hard",
+    "answerOptions": ["Andromeda", "Perseus", "Hercules", "Orion’s belt"],
+    "answerCorrect": "Orion’s belt"
+  },
+  {
+    "question": "Which mythical creature is half an eagle and half a lion?",
+    "difficulty": "hard",
+    "answerOptions": ["Griffin", "Goblins", "Gorgon", "Yeti"],
+    "answerCorrect": "Griffin"
+  },
+  {
+    "question": "What is the name of the dog that always chased Tom in Tom & Jerry?",
+    "difficulty": "hard",
+    "answerOptions": ["Tyke", "Spike", "Butch", "Tuffy"],
+    "answerCorrect": "Spike"
+  },
+  {
+    "question": "What language is most commonly spoken in China?",
+    "difficulty": "hard",
+    "answerOptions": ["Japanese", "Chinese", "English", "Mandarin"],
+    "answerCorrect": "Mandarin"
+  },
+  {
+    "question": "Where does the Pope live?",
+    "difficulty": "hard",
+    "answerOptions": ["Rome", "Vatican City", "Venice", "London"],
+    "answerCorrect": "Vatican City"
+  },
+  {
+    "question": "What is the name of a baby kangaroo?",
+    "difficulty": "hard",
+    "answerOptions": ["Gosling", "Joey", "Infant", "Lamb"],
+    "answerCorrect": "Joey"
+  },
+  {
+    "question": "What year did World War 2 begin?",
+    "difficulty": "hard",
+    "answerOptions": ["1914", "1939", "1965", "1899"],
+    "answerCorrect": "1939"
+  },
+  {
+    "question": "Who is the messenger of the Greek Gods?",
+    "difficulty": "hard",
+    "answerOptions": ["Apollo", "Demeter", "Hermes", "Athena"],
+    "answerCorrect": "Hermes"
+  },
+  {
+    "question": "Who discovered Radium?",
+    "difficulty": "hard",
+    "answerOptions": [
+      "Marie Curie",
+      "Issac Newton",
+      "Dmitri Mendeleev",
+      "Ernest Rutherford"
+    ],
+    "answerCorrect": "Marie Curie"
+  },
+  {
+    "question": "Which country won the most FIFA World Cups?",
+    "difficulty": "hard",
+    "answerOptions": ["France", "Spain", "Argentina", "Brazil"],
+    "answerCorrect": "Brazil"
+  },
+  {
+    "question": "What is the color of a emerald?",
+    "difficulty": "hard",
+    "answerOptions": ["Blue", "Green", "Yellow", "Red"],
+    "answerCorrect": "Green"
+  },
+  {
+    "question": "What is a group of crows called?",
+    "difficulty": "hard",
+    "answerOptions": ["Pandemonium", "Murder", "Aggregation", "Thunder"],
+    "answerCorrect": "Murder"
+  },
+  {
+    "question": "Where was Jesus born?",
+    "difficulty": "hard",
+    "answerOptions": ["Egypt", "Rome", "Syria", "Palestine"],
+    "answerCorrect": "Palestine"
+  },
+  {
+    "question": "Which country is Leonardo Da Vinci from?",
+    "difficulty": "hard",
+    "answerOptions": ["Italy", "Serbia", "Croatia", "England"],
+    "answerCorrect": "Italy"
+  },
+  {
+    "question": "How long did it take to build the Great Wall of China?",
+    "difficulty": "hard",
+    "answerOptions": [
+      "1000+ years",
+      "1500+ years",
+      "500+ years",
+      "2,000+ years"
+    ],
+    "answerCorrect": "2,000+ years"
+  },
+  {
+    "question": "According to Greek mythology, who is considered the Goddess of Agriculture?",
+    "difficulty": "expert",
+    "answerOptions": ["Demeter", "Athena", "Poseidon", "Hercules"],
+    "answerCorrect": "Demeter"
+  },
+  {
+    "question": "In which year America was declared independent from England?",
+    "difficulty": "expert",
+    "answerOptions": ["1656", "1776", "1889", "1758"],
+    "answerCorrect": "1776"
+  },
+  {
+    "question": "Which country gifted the famous Statue of Liberty?",
+    "difficulty": "expert",
+    "answerOptions": ["Spain", "Portugal", "France", "Italy"],
+    "answerCorrect": "France"
+  },
+  {
+    "question": "When is World Literacy Day celebrated?",
+    "difficulty": "expert",
+    "answerOptions": ["April 5", "June 17", "December 27", "September 8"],
+    "answerCorrect": "September 8"
+  },
+  {
+    "question": "Which philosopher stated the famous line “I think, therefore I am”?",
+    "difficulty": "expert",
+    "answerOptions": ["Confucius", "Rene Descartes", "Voltaire", "John Locke"],
+    "answerCorrect": "Rene Descartes"
+  },
+  {
+    "question": "What do the mycologists study?",
+    "difficulty": "expert",
+    "answerOptions": ["Mushroom", "Blood", "Bacteria", "Rays"],
+    "answerCorrect": "Mushroom"
+  },
+  {
+    "question": "When was the first model of the iPhone released?",
+    "difficulty": "expert",
+    "answerOptions": ["2000", "2009", "2007", "2006"],
+    "answerCorrect": "2007"
+  },
+  {
+    "question": "What is the name of the person credited with creating the world’s first car?",
+    "difficulty": "expert",
+    "answerOptions": [
+      "Karl Benz",
+      "Henry Ford",
+      "Enzo Ferrari",
+      "Soichiro Honda"
+    ],
+    "answerCorrect": "Karl Benz"
+  },
+  {
+    "question": "Who was the second person to step on the moon?",
+    "difficulty": "expert",
+    "answerOptions": [
+      "Buzz Aldrin",
+      "Charles Conrad",
+      "Edgar D. Mitchell",
+      "James B. Irwin"
+    ],
+    "answerCorrect": "Buzz Aldrin"
+  },
+  {
+    "question": "Dolphins are classified as what kind of animals",
+    "difficulty": "expert",
+    "answerOptions": ["Amphibia", "Chondrichthyes", "Reptilia", "Mammals"],
+    "answerCorrect": "Mammals"
+  }
+]
