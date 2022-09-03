@@ -2,12 +2,14 @@ const express = require('express');
 
 const globalErrorHandler = require('./controllers/error.controller');
 const questionRouter = require('./routes/question.route');
+const highScoreRouter = require('./routes/highScore.route');
 
 const app = express();
 
 app.use(express.json());
 
 app.use('/api/v1/question', questionRouter);
+app.use('/api/v1/high-score', highScoreRouter);
 
 app.get('/', (req, res) => {
   res.status(200).json({

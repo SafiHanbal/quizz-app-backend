@@ -4,7 +4,8 @@
   "description": "A Quiz app which allows to take quiz and record high scores.",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "start:prod": "SET NODE_ENV=production&&nodemon server.js"
   },
   "author": "Safi Hanbal",
   "license": "ISC",
