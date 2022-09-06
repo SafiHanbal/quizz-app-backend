@@ -70,7 +70,7 @@ exports.getARandomQuestion = catchAsync(async (req, res, next) => {
   query.skip(randomNum).limit(1);
 
   // Execute query
-  const question = await query;
+  const question = (await query)[0];
   if (!question) return next(new AppError('Unable to find question', 404));
   // Return question
   res.status(200).json({

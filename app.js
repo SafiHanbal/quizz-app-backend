@@ -1,22 +1,23 @@
+const path = require('path');
 const express = require('express');
 
 const globalErrorHandler = require('./controllers/error.controller');
 const questionRouter = require('./routes/question.route');
 const highScoreRouter = require('./routes/highScore.route');
+const viewRouter = require('./routes/view.routes');
 
 const app = express();
 
+app.set('view engine', 'pug');
+app.set('views', path.join(__dirname, 'views'));
+
+app.use(express.static(path.join(__dirname, 'public')));
+
 app.use(express.json());
 
+app.use('/quizz', viewRouter);
 app.use('/api/v1/question', questionRouter);
 app.use('/api/v1/high-score', highScoreRouter);
-
-app.get('/', (req, res) => {
-  res.status(200).json({
-    status: 'success',
-    data: 'I am here working',
-  });
-});
 
 app.use('*', (req, res) => {
   res.status(400).json({

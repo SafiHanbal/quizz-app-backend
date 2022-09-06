@@ -1,0 +1,49 @@
+main.main
+  section.section-progress
+    .progress-container
+      h2.heading-2 Your Progress
+      .outer-circle
+      .inner-circle
+      .progress
+        span.current-question 1
+        |             /
+        span.total-question 10
+    .current-score-container
+      h2.heading-2 Your Score
+      .current-score
+        span.trophie &#x1F3C6;
+        span.my-score 0
+  section.section-timer
+    .restart-container
+      svg.restart(xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewbox='0 0 24 24' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round')
+        polyline(points='23 4 23 10 17 10')
+        path(d='M20.49 15a9 9 0 1 1-2.12-9.36L23 10')
+    .timer-container
+      .timer-circle
+      p.timer-text 30
+    .rules-container
+      svg.rules(xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewbox='0 0 24 24' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round')
+        circle(cx='12' cy='12' r='10')
+        line(x1='12' y1='16' x2='12' y2='12')
+        line(x1='12' y1='8' x2='12.01' y2='8')
+  section.section-question
+    .question-container-shadow
+      .question-container
+        p.question Question
+    .answer-container
+      .answer-shadow
+        a.answer(href='#')
+          span.answer-no A
+          span.answer-text Option
+      .answer-shadow
+        a.answer(href='#')
+          span.answer-no B
+          span.answer-text Option
+      .answer-shadow
+        a.answer(href='#')
+          span.answer-no C
+          span.answer-text Option
+      .answer-shadow
+        a.answer(href='#')
+          span.answer-no D
+          span.answer-text Option
