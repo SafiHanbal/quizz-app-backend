@@ -1,5 +1,6 @@
 const path = require('path');
 const express = require('express');
+const compression = require('compression');
 
 const globalErrorHandler = require('./controllers/error.controller');
 const questionRouter = require('./routes/question.route');
@@ -14,6 +15,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(express.json());
+app.use(compression());
 
 app.use('/quizz', viewRouter);
 app.use('/api/v1/question', questionRouter);

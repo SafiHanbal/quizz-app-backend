@@ -1,7 +1,7 @@
 export const getQuestion = async (difficulty, excludeQuestion = []) => {
   try {
     if (!difficulty) throw new Error('Provide difficulty of question');
-    let url = `http://localhost:8000/api/v1/question/${difficulty}?exclude=${excludeQuestion.join(
+    let url = `/api/v1/question/${difficulty}?exclude=${excludeQuestion.join(
       ','
     )}`;
     const res = await fetch(url);
@@ -13,7 +13,7 @@ export const getQuestion = async (difficulty, excludeQuestion = []) => {
 
 export const getHighScores = async () => {
   try {
-    const url = `http://localhost:8000/api/v1/high-score`;
+    const url = `/api/v1/high-score`;
     const res = await fetch(url);
     return await res.json();
   } catch (err) {
@@ -23,7 +23,7 @@ export const getHighScores = async () => {
 
 export const setHighScore = async (name, score) => {
   try {
-    const url = `http://localhost:8000/api/v1/high-score`;
+    const url = `/api/v1/high-score`;
     const res = await fetch(url, {
       method: 'post',
       headers: {

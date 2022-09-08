@@ -72,8 +72,6 @@ export const renderQuestion = async () => {
   // Updating question no
   store.questionNo = store.questionNo + 1;
 
-  console.log(store.question);
-
   // Redering Progress
   currentQuestionElement.textContent = store.questionNo;
 
@@ -117,7 +115,6 @@ export const renderHighScores = async () => {
   const highScores = await getHighScores();
   if (highScores.status !== 'success') return;
   store.highScores = highScores.data.highScores;
-  console.log(store.highScores);
 
   store.highScores.forEach((el, i) => {
     nameArr[i].textContent = el.name;
@@ -134,7 +131,6 @@ export const updateCurrentScore = () => {
   };
   const rightAnswerPoints = answerPointsDirectory[difficulty];
   const bonusPoints = 10 * store.bonusTimeLeft;
-  console.log(rightAnswerPoints, bonusPoints);
   store.score = store.score + rightAnswerPoints + bonusPoints;
   myScore.textContent = store.score;
 };
