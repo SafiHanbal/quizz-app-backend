@@ -17,7 +17,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.json());
 app.use(compression());
 
-app.use('/quizz', viewRouter);
+app.use('/', viewRouter);
 app.use('/api/v1/question', questionRouter);
 app.use('/api/v1/high-score', highScoreRouter);
 
